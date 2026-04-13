@@ -1,0 +1,26 @@
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
